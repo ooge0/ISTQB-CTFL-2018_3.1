@@ -1,1 +1,123 @@
+https://www.kitzkikz.com/flashcards/ user-friendly web tool for making flashcards from CSV files.
+
+Basic set for making flashcards based on ISTQB CTFL 2018 v.3.1 Syllabys terms / by Glossary v. 4.2.1
+- ISTQB CTFL 2018 v.3.1 Syllabys terms by latest available ISTQB Glossary (v. 4.2.1)
+- Based on ISTQB Standard Glossary of Terms, Version 4.2.1, Jan 13, 2024
+- delimiter - '|' ; Field Enclosure is not defined and can not providede for kitzkikz's flashcards maker 
+*************************************************************************
+coverage|1 Fundamentals of Testing */*/*The degree to which specified coverage items have been determined or have been exercised by a test suite expressed as a percentage.*/*/*Synonyms: test coverage
+debugging|1 Fundamentals of Testing */*/*The process of finding, analyzing and removing the causes of failures in a component or system.
+defect|1 Fundamentals of Testing */*/*An imperfection or deficiency in a work product where it does not meet its requirements or specifications.*/*/*Reference: After ISO 24765*/*/*Synonyms: bug, fault
+error|1 Fundamentals of Testing */*/*A human action that produces an incorrect result.*/*/*Reference: ISO 24765*/*/*Synonyms: mistake
+failure|1 Fundamentals of Testing */*/*An event in which a component or system does not perform a required function within specified limits.*/*/*Reference: After ISO 24765
+quality|1 Fundamentals of Testing */*/*The degree to which a component or system satisfies the stated and implied needs of its various stakeholders.*/*/*Reference: After ISO 25010
+quality assurance|1 Fundamentals of Testing */*/*Activities focused on providing confidence that quality requirements will be fulfilled.Abbreviation: QA*/*/*Reference: After ISO 24765*/*/*See also: quality management
+root cause|1 Fundamentals of Testing */*/*A source of a defect such that if it is removed, the occurrence of the defect type is decreased or removed.*/*/*Reference: CMMI
+test analysis|1 Fundamentals of Testing */*/*The activity that identifies test conditions by analyzing the test basis.
+test basis|1 Fundamentals of Testing */*/*The body of knowledge used as the basis for test analysis and design.*/*/*Reference: After TMap
+test case|1 Fundamentals of Testing */*/*A set of preconditions, inputs, actions (where applicable), expected results and postconditions, developed based on test conditions.*/*/*See also: test step
+test completion|1 Fundamentals of Testing */*/*The activity that makes testware available for later use, leaves test environments in a satisfactory condition and communicates the results of testing to relevant stakeholders.
+test condition|1 Fundamentals of Testing */*/*A testable aspect of a component or system identified as a basis for testing.*/*/*Reference: After ISO 29119-1*/*/*Synonyms: test situation, test requirement
+test control|1 Fundamentals of Testing */*/*The activity that develops and applies corrective actions to get a test project on track when it deviates from what was planned.*/*/*See also: test management
+test data|1 Fundamentals of Testing */*/*Data needed for test execution.*/*/*Synonyms: test dataset
+test design|1 Fundamentals of Testing */*/*The activity that derives and specifies test cases from test conditions.
+test execution|1 Fundamentals of Testing */*/*The activity that runs a test on a component or system producing actual results.
+test implementation|1 Fundamentals of Testing */*/*The activity that prepares the testware needed for test execution based on test analysis and design.
+test monitoring|1 Fundamentals of Testing */*/*The activity that checks the status of testing activities, identifies any variances from planned or expected, and reports status to stakeholders.*/*/*See also: test management
+test object|1 Fundamentals of Testing */*/*The work product to be tested.*/*/*See also: test item
+test objective|1 Fundamentals of Testing */*/*The reason or purpose of testing.*/*/*Synonyms: test goal
+test oracle|1 Fundamentals of Testing */*/*A source to determine an expected result to compare with the actual result of the system under test.*/*/*Reference: After Adrion*/*/*Synonyms: oracle
+test planning|1 Fundamentals of Testing */*/*The activity of establishing or updating a test plan.
+test procedure|1 Fundamentals of Testing */*/*A sequence of test cases in execution order, and any associated actions that may be required to set up the initial preconditions and any wrap up activities post execution.*/*/*Reference: ISO 29119-1
+test process|1 Fundamentals of Testing */*/*The set of interrelated activities comprising of test planning, test monitoring and control, test analysis, test design, test implementation, test execution, and test completion.
+test suite|1 Fundamentals of Testing */*/*A set of test scripts or test procedures to be executed in a specific test run.*/*/*Synonyms: test set, test case suite
+testing|1 Fundamentals of Testing */*/*The process consisting of all lifecycle activities, both static and dynamic, concerned with planning, preparation and evaluation of a component or system and related work products to determine that they satisfy specified requirements, to demonstrate that they are fit for purpose and to detect defects.
+testware|1 Fundamentals of Testing */*/*Work products produced during the test process for use in planning, designing, executing, evaluating and reporting on testing.*/*/*Reference: After ISO 29119-1
+traceability|1 Fundamentals of Testing */*/*The degree to which a relationship can be established between two or more work products.*/*/*Reference: After ISO 19506
+validation|1 Fundamentals of Testing */*/*Confirmation by examination and through provision of objective evidence that the requirements for a specific intended use or application have been fulfilled.*/*/*Reference: ISO 9000
+verification|1 Fundamentals of Testing */*/*Confirmation by examination and through provision of objective evidence that specified requirements have been fulfilled.*/*/*Reference: ISO 9000
+acceptance testing|2 Testing Throughout the Software Development Lifecycle*/*/* A test level that focuses on determining whether to accept the system.*/*/*See also: user acceptance testing
+alpha testing|2 Testing Throughout the Software Development Lifecycle*/*/* A type of acceptance testing performed in the developer's test environment by roles outside the development organization.
+beta testing|2 Testing Throughout the Software Development Lifecycle*/*/* A type of acceptance testing performed at an external site to the developer's test environment by roles outside the development organization.
+change-related testing|2 Testing Throughout the Software Development Lifecycle*/*/* A type of testing initiated by modification to a component or system.
+commercial off-the-shelf (COTS)|2 Testing Throughout the Software Development Lifecycle*/*/* A type of product developed in an identical format for a large number of customers in the general market.Abbreviation: COTS*/*/*Synonyms: off-the-shelf software
+component integration testing|2 Testing Throughout the Software Development Lifecycle*/*/* Testing in which the test items are interfaces and interactions between integrated components.*/*/*Synonyms: module integration testing, unit integration testing
+component testing|2 Testing Throughout the Software Development Lifecycle*/*/* A test level that focuses on individual hardware or software components.*/*/*Synonyms: module testing, unit testing
+confirmation testing|2 Testing Throughout the Software Development Lifecycle*/*/* A type of change-related testing performed after fixing a defect to confirm that a failure caused by that defect does not reoccur.*/*/*Synonyms: re-testing
+contractual acceptance testing|2 Testing Throughout the Software Development Lifecycle*/*/* A type of acceptance testing performed to verify whether a system satisfies its contractual requirements.
+functional testing|2 Testing Throughout the Software Development Lifecycle*/*/* Testing performed to evaluate if a component or system satisfies functional requirements.*/*/*Reference: After ISO 24765
+impact analysis|2 Testing Throughout the Software Development Lifecycle*/*/* The identification of all work products affected by a change, including an estimate of the resources needed to accomplish the change.*/*/*Reference: After ISO 24765
+integration testing|2 Testing Throughout the Software Development Lifecycle*/*/* A test level that focuses on interactions between components or systems.
+maintenance testing|2 Testing Throughout the Software Development Lifecycle*/*/* Testing the changes to an operational system or the impact of a changed environment to an operational system.
+non-functional testing|2 Testing Throughout the Software Development Lifecycle*/*/* Testing performed to evaluate that a component or system complies with non-functional requirements.
+operational acceptance testing|2 Testing Throughout the Software Development Lifecycle*/*/* A type of acceptance testing performed to determine if operations and/or systems administration staff can accept a system.*/*/*Synonyms: production acceptance testing
+regression testing|2 Testing Throughout the Software Development Lifecycle*/*/* A type of change-related testing to detect whether defects have been introduced or uncovered in unchanged areas of the software.
+regulatory acceptance testing|2 Testing Throughout the Software Development Lifecycle*/*/* A type of acceptance testing performed to verify whether a system conforms to relevant laws, policies and regulations.
+sequential development model|2 Testing Throughout the Software Development Lifecycle*/*/* A type of software development lifecycle model in which a complete system is developed in a linear way of several discrete and successive phases with no overlap between them.
+system integration testing|2 Testing Throughout the Software Development Lifecycle*/*/* A test level that focuses on interactions between systems.
+system testing|2 Testing Throughout the Software Development Lifecycle*/*/* A test level that focuses on verifying that a system as a whole meets specified requirements.
+test basis|2 Testing Throughout the Software Development Lifecycle*/*/* The body of knowledge used as the basis for test analysis and design.*/*/*Reference: After TMap
+test case|2 Testing Throughout the Software Development Lifecycle*/*/* A set of preconditions, inputs, actions (where applicable), expected results and postconditions, developed based on test conditions.*/*/*See also: test step
+test environment|2 Testing Throughout the Software Development Lifecycle*/*/* An environment containing hardware, instrumentation, simulators, software tools, and other support elements needed to conduct a test.*/*/*Reference: ISO 24765*/*/*Synonyms: test bed, test rig
+test level|2 Testing Throughout the Software Development Lifecycle*/*/* A specific instantiation of a test process.*/*/*See also: test control, test monitoring*/*/*Synonyms: test stage
+test object|2 Testing Throughout the Software Development Lifecycle*/*/* The work product to be tested.*/*/*See also: test item
+test objective|2 Testing Throughout the Software Development Lifecycle*/*/* The reason or purpose of testing.*/*/*Synonyms: test goal
+test type|2 Testing Throughout the Software Development Lifecycle*/*/* A group of test activities based on specific test objectives aimed at specific characteristics of a component or system.*/*/*Reference: After TMap
+user acceptance testing|2 Testing Throughout the Software Development Lifecycle*/*/* A type of acceptance testing performed to determine if intended users accept the system.Abbreviation: UAT*/*/*See also: acceptance testing
+white-box testing|2 Testing Throughout the Software Development Lifecycle*/*/* Testing based on an analysis of the internal structure of the component or system.*/*/*Synonyms: clear-box testing, code-based testing, glass-box testing, logic-coverage testing, logic-driven testing, structural testing, structure-based testing
+ad hoc review|3 Static Testing*/*/* A review technique performed informally without a structured process.*/*/*Reference: After ISO 20246
+checklist-based review|3 Static Testing*/*/* A review technique guided by a list of questions or required attributes.*/*/*Reference: ISO 20246
+dynamic testing|3 Static Testing*/*/* Testing that involves the execution of the test item.*/*/*Reference: After ISO 29119-1*/*/*See also: static testing
+formal review|3 Static Testing*/*/* A type of review that follows a defined process with a formally documented output.*/*/*Reference: ISO 20246
+informal review|3 Static Testing*/*/* A type of review that does not follow a defined process and has no formally documented output.
+inspection|3 Static Testing*/*/* A type of formal review to identify issues in a work product, which provides measurement to improve the review process and the software development process.*/*/*Reference: After ISO 20246
+perspective-based reading|3 Static Testing*/*/* A review technique in which a work product is evaluated from the perspective of different stakeholders with the purpose to derive other work products.*/*/*Synonyms: perspective-based reviewing
+review|3 Static Testing*/*/* A type of static testing in which a work product or process is evaluated by one or more individuals to detect defects or to provide improvements.
+role-based review|3 Static Testing*/*/* A review technique in which a work product is evaluated from the perspective of different stakeholders.
+scenario-based review|3 Static Testing*/*/* A review technique in which a work product is evaluated to determine its ability to address specific scenarios.
+static analysis|3 Static Testing*/*/* The process of evaluating a component or system without executing it, based on its form, structure, content, or documentation.*/*/*Reference: After ISO 24765
+static testing|3 Static Testing*/*/* Testing a work product without the work product code being executed.
+technical review|3 Static Testing*/*/* A formal review by technical experts that examine the quality of a work product and identify discrepancies from specifications and standards.*/*/*See also: peer review
+walkthrough|3 Static Testing*/*/* A type of review in which an author leads members of the review through a work product and the members ask questions and make comments about possible issues.*/*/*Reference: After ISO 20246*/*/*Synonyms: structured walkthrough
+black-box test technique|4 Test Techniques*/*/* A test technique based on an analysis of the specification of a component or system.*/*/*Synonyms: black-box test design technique, specification-based test technique
+boundary value analysis|4 Test Techniques*/*/* A black-box test technique in which test cases are designed based on boundary values.*/*/*See also: boundary value
+checklist-based testing|4 Test Techniques*/*/* An experience-based test technique whereby the experienced tester uses a high-level list of items to be noted, checked, or remembered, or a set of rules or criteria against which a product has to be verified.
+coverage|4 Test Techniques*/*/* The degree to which specified coverage items have been determined or have been exercised by a test suite expressed as a percentage.*/*/*Synonyms: test coverage
+decision coverage|4 Test Techniques*/*/* The coverage of decision outcomes.
+decision table testing|4 Test Techniques*/*/* A black-box test technique in which test cases are designed to exercise the combinations of conditions and the resulting actions shown in a decision table.
+error guessing|4 Test Techniques*/*/* A test technique in which tests are derived on the basis of the tester's knowledge of past failures, or general knowledge of failure modes.*/*/*Reference: ISO 29119-1
+equivalence partitioning|4 Test Techniques*/*/* A black-box test technique in which test cases are designed to exercise equivalence partitions by using one representative member of each partition.*/*/*Reference: After ISO 29119-1*/*/*Synonyms: partition testing
+experience-based test technique|4 Test Techniques*/*/* A test technique based on the tester's experience, knowledge and intuition.*/*/*Synonyms: experience-based test design technique, experience-based technique
+exploratory testing|4 Test Techniques*/*/* An approach to testing in which the testers dynamically design and execute tests based on their knowledge, exploration of the test item and the results of previous tests.*/*/*Reference: After ISO 29119-1*/*/*See also: test charter
+state transition testing|4 Test Techniques*/*/* A black-box test technique in which test cases are designed to exercise elements of a state transition model.*/*/*Synonyms: finite state testing
+statement coverage|4 Test Techniques*/*/* The coverage of executable statements.
+test technique|4 Test Techniques*/*/* A procedure used to define test conditions, design test cases, and specify test data.*/*/*Synonyms: test design technique
+use case testing|4 Test Techniques*/*/* A black-box test technique in which test cases are designed to exercise use case behaviors.*/*/*Synonyms: user scenario testing, scenario testing
+white-box test technique|4 Test Techniques*/*/* A test technique only based on the internal structure of a component or system.*/*/*Synonyms: white-box test design technique, structure-based test technique
+configuration management|5 Test Management*/*/* A discipline applying technical and administrative direction and surveillance to identify and document the functional and physical characteristics of a configuration item, control changes to those characteristics, record and report change processing and implementation status, and verify that it complies with specified requirements.
+defect management|5 Test Management*/*/* The process of recognizing, recording, classifying, investigating, resolving and disposing of defects.
+defect report|5 Test Management*/*/* Documentation of the occurrence, nature, and status of a defect.*/*/*Synonyms: bug report
+entry criteria|5 Test Management*/*/* The set of conditions for officially starting a defined task.*/*/*Reference: Gilb and Graham*/*/*See also: exit criteria
+exit criteria|5 Test Management*/*/* The set of conditions for officially completing a defined task.*/*/*Reference: After Gilb and Graham*/*/*See also: entry criteria*/*/*Synonyms: test completion criteria, completion criteria
+product risk|5 Test Management*/*/* A risk that impacts the quality of a product.*/*/*See also: risk
+project risk|5 Test Management*/*/* A risk that impacts project success.*/*/*See also: risk
+risk|5 Test Management*/*/* A factor that could result in future negative consequences.*/*/*See also: product risk, project risk
+risk level|5 Test Management*/*/* The measure of a risk defined by risk impact and risk likelihood.*/*/*Synonyms: risk exposure
+risk-based testing|5 Test Management*/*/* Testing in which the management, selection, prioritization, and use of testing activities and resources are based on corresponding risk types and risk levels.*/*/*Reference: After ISO 29119-1
+test approach|5 Test Management*/*/* The implementation of the test strategy for a specific project.
+test control|5 Test Management*/*/* The activity that develops and applies corrective actions to get a test project on track when it deviates from what was planned.*/*/*See also: test management
+test estimation|5 Test Management*/*/* An approximation related to various aspects of testing.
+test manager|5 Test Management*/*/* The person responsible for project management of testing activities, resources, and evaluation of a test object.*/*/*See also: test director, test leader, Agile test leader
+test monitoring|5 Test Management*/*/* The activity that checks the status of testing activities, identifies any variances from planned or expected, and reports status to stakeholders.*/*/*See also: test management
+test plan|5 Test Management*/*/* Documentation describing the test objectives to be achieved and the means and the schedule for achieving them, organized to coordinate testing activities.*/*/*Reference: After ISO 29119-1*/*/*See also: master test plan, level test plan, test scope
+test planning|5 Test Management*/*/* The activity of establishing or updating a test plan.
+test progress report|5 Test Management*/*/* A type of test report produced at regular intervals about the progress of test activities against a baseline, risks, and alternatives requiring a decision.*/*/*Synonyms: test status report
+test strategy|5 Test Management*/*/* Documentation aligned with the test policy that describes the generic requirements for testing and details how to perform testing within an organization.*/*/*Synonyms: organizational test strategy
+test summary report /  test completion report|5 Test Management*/*/* A type of test report produced at completion milestones that provides an evaluation of the corresponding test items against exit criteria.*/*/*Synonyms: test completion report
+tester|5 Test Management*/*/* A person who performs testing.
+data-driven testing|6 Tool Support for Testing*/*/*A scripting technique that uses data files to contain the test data and expected results needed to execute the test scripts.*/*/*See also: keyword-driven testing
+keyword-driven testing|6 Tool Support for Testing*/*/*A scripting technique in which test scripts contain high-level keywords and supporting files that contain low-level scripts that implement those keywords.*/*/*See also: data-driven testing*/*/*Synonyms: action word-driven testing
+test automation|6 Tool Support for Testing*/*/*The use of software to perform or support test activities.
+test execution tool|6 Tool Support for Testing*/*/*A test tool that executes tests against a designated test item and evaluates the outcomes against expected results and postconditions.
+test management tool|6 Tool Support for Testing*/*/*A tool that supports test management.
 
